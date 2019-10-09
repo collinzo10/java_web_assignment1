@@ -7,6 +7,22 @@
 <title>Assignment 1</title>
 </head>
 <body>
-<h1> Assignment 1 :></h1>
+<h1>LOGIN</h1>
+<div id = "login">
+	<form action="AdminAuth" method="post">
+		<div id ="username">
+			<label for="username">Username: </label>
+			<input type="email" name="username" required>
+		</div>
+		<div id="password">
+			<label for="password">Password: </label>
+			<input type="password" name="password" required>
+		</div>
+		<div id ="buttons">
+			<button type="submit">Login</button>
+			<button>Register</button>
+		</div>
+	</form>
+</div>
 </body>
 </html>
