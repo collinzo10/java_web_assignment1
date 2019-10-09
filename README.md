@@ -1,6 +1,8 @@
 Repository for Java Web Dev Assignment1
 
-make sure you git pull before working and push when you're done
+make sure you git pull and Import the WAR file
+
+Export the project as WAR file and push 
 
 git clone DirectoryName
 
