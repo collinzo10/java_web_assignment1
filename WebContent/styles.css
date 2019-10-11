@@ -1,0 +1,9 @@
+.wrapper {
+	margin-top:80px;
+	margin-bottm:80px;
+}
+.form-signin {
+	max-width: 500px;
+	padding: 15px 35px 45px;
+	margin: 0 auto;
+}

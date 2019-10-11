@@ -20,7 +20,12 @@ public class AdminAuthServlet extends HttpServlet {
 	}
 	
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		response.getWriter().append("Served at: ").append(request.getContextPath());
+		if (request.getParameter("login") != null) {
+			response.getWriter().append("Served at: ").append(request.getContextPath());
+		}
+		else if(request.getParameter("register")!=null){
+			request.getRequestDispatcher("register.jsp").forward(request, response);
+		}
 	}
 
 }
