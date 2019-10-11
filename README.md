@@ -31,6 +31,10 @@ After
 
 git pull
 
+if it doesn't work
+
+git pull origin master
+
 -----------------------------------------------------------
 To push to repo
 
