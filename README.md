@@ -40,11 +40,11 @@ To push to repo
 
 Eclipse -> Windows -> Show View -> Other.. -> Git -> Git Staging
 
-+ button = git add
+"+" button = git add
 
 OR 
 
-++ button = git add *
+"++" button = git add *
 
 Commit Message - type something
 
