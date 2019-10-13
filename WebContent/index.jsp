@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1" name="viewport" content="width=device-width, initial-scale=1">
-<title>Assignment 1</title>
+<title>Log in</title>
 <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 <link rel="stylesheet" type="text/css" href="styles.css">
 <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
@@ -23,7 +23,7 @@
 			<input type="password" name="password" class="form-control">
 		</div>
 		<div class="g-recaptcha" data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"></div>
-		<div id ="buttons">
+		<div class="form-group">
 			<button type="submit" name="login" class="btn btn-primary">Login</button>
 			<button class="btn btn-secondary" name="register">Register</button>
 		</div>
