@@ -14,6 +14,7 @@
 <div class="wrapper">
 	<form class="form-signin" action="AdminAuth" method="post">
 	<h1>LOGIN</h1>
+	<h4 class="text-danger">${message}</h4>
 		<div class="form-group">
 			<label for="username">Username</label>
 			<input type="email" name="username" class="form-control">
@@ -27,6 +28,7 @@
 			<button type="submit" name="login" class="btn btn-primary">Login</button>
 			<button class="btn btn-secondary" name="register">Register</button>
 		</div>
+		<a style="text-decoration: underline" href="register.jsp">Forgot your password?</a>
 	</form>
 </div>
 </body>
